@@ -20,6 +20,11 @@ if (time() > ($_SESSION['lastaccess'] + 3600))
   session_unset();
   session_destroy();
 }
+else
+{
+  $_SESSION['lastaccess'] = time();
+}
+
 
 
 
