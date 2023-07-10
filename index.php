@@ -14,6 +14,14 @@ session_unset();
 session_destroy();
 }
 
+// Is the last access over an hour ago?
+if (time() > ($_SESSION['lastaccess'] + 3600))
+{
+  session_unset();
+  session_destroy();
+}
+
+
 
 // Access the user's information from the session
 $userId = $_SESSION['userId'];
