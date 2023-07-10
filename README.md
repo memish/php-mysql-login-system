@@ -16,3 +16,8 @@ Screenshot of the logincreate.php page
 Screenshot of the Index.php
 
 ![Screen Shot 2023-07-10 at 1 10 34 PM](https://github.com/memish/php-mysql-login-system/assets/10442224/0b951dca-4057-46f7-b527-b7cedf22aa1c)
+
+
+Screenshot of the structure of the MySQL database:
+
+![Screen Shot 2023-07-10 at 1 27 44 PM](https://github.com/memish/php-mysql-login-system/assets/10442224/2bfb9947-1d59-46ae-8a69-51ed3b31ae65)
