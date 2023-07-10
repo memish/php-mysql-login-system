@@ -7,6 +7,14 @@ if (!isset($_SESSION['userId'])) {
     exit();
 }
 
+// Does IP Address match?
+if ($_SERVER['REMOTE_ADDR'] != $_SESSION['ipaddress'])
+{
+session_unset();
+session_destroy();
+}
+
+
 // Access the user's information from the session
 $userId = $_SESSION['userId'];
 $username = $_SESSION['username'];
